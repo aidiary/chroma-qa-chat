@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chroma-qa-chat"
+version = "0.1.0"
+description = ""
+authors = ["Koichiro Mori <f2forest@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.12"
+langchain-openai = "^0.1.20"
+langchain-community = "^0.2.11"
+chromadb = "^0.5.5"
+tiktoken = "^0.7.0"
+chainlit = "^1.1.402"
+pymupdf = "^1.24.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+langchain
+chainlit
+langchain_openai
+langchain_community
+openai
+chromadb
+tiktoken
+pymupdf
